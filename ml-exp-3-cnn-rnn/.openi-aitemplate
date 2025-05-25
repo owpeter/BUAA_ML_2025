@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "BUAA-ML-EXP-ENV",
+    "Description": "",
+    "JobType": "DEBUG",
+    "Cluster": "C2Net",
+    "ComputeSource": "NPU",
+    "HasInternet": 2,
+    "VisualizeRequired": false,
+    "AccCardsNum": 1,
+    "AccCardType": "ASCEND910",
+    "CpuCores": 24,
+    "MemGiB": 96,
+    "GPUMemGiB": 32,
+    "ShareMemGiB": 0,
+    "Image": {
+      "ImageID": "0b79fed7504c4e2dac39llamafactory",
+      "ImageName": "torch-npu-cann8-debug",
+      "ImageUrl": "torch-npu-cann8-debug"
+    },
+    "PretrainModelList": [],
+    "DatasetList": [],
+    "BranchName": "master",
+    "BootFile": "",
+    "Parameters": []
+  }
+]
